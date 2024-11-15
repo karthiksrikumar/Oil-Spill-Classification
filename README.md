@@ -33,3 +33,10 @@ To utilize this dataset and the corresponding classification models, follow the 
     ```
 
 2. **Running the Model**: After setting up the environment, you can run the model training and evaluation scripts. Adjust any parameters as necessary in the configuration files.
+
+Results:
+      Model                                    Best Parameters  Test Accuracy
+0   XGBoost  {'n_estimators': 300, 'max_depth': 3, 'learnin...       0.957447
+1  LightGBM  {'num_leaves': 31, 'n_estimators': 300, 'max_d...       0.957447
+2  CatBoost  {'learning_rate': 0.05, 'iterations': 300, 'de...       0.957447
+
